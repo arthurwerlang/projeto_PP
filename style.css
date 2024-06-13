@@ -1,5 +1,5 @@
 *{
-    font-family: "Potta One", system-ui;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 body{
@@ -7,8 +7,9 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #3e8e41;
+    background-color: #0e387a;
     flex-direction: column;
+    
 }
 
 .mapBox{
@@ -17,8 +18,9 @@ width: 90%;
 max-width: 60%;
 height: 600px;
 margin: 0 auto;
-background:#fff;
 margin-bottom: 20px;
+border: 5px solid black;
+
 
 }
 
@@ -30,38 +32,46 @@ margin-bottom: 20px;
 .ble {
     margin-top: 20px;
 }
-.button {
-    display: inline-block;
-    padding: 15px 25px;
-    font-size: 24px;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
+.btn {
+    background-color:  #f49f1c;
     color: #fff;
-    background-color: #04AA6D;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px #999;
-  }
-  .button {
-  display: inline-block;
-  padding: 15px 25px;
-  font-size: 24px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: #04AA6D;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #6b6b6b;
-}
-.button:hover {background-color:#f7b62b}
+    font-size: 34px;
+    font-weight: 600;
+    border: none ;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0 ;
+    border-radius: 3px;
+    border: 1px solid #636363;
+    
 
-.button:active {
-  background-color: #f7b62b;
-  box-shadow: 0 5px #000000;
-  transform: translateY(4px);
 }
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color: #f49f1c;
+
+}
+h1{
+    text-align: center;
+    color: #fff;
+    text-decoration: underline;
+}
+@media (max-width: 768px) {
+    .button0, .btn {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+    h1 {
+      font-size: 24px;
+    }
+  }
+  @media (max-width: 480px) {
+    .button0, .btn {
+      font-size: 12px;
+      padding: 6px 12px;
+    }
+    h1 {
+      font-size: 20px;
+    }
+  }

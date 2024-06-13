@@ -1,10 +1,7 @@
 body{
-    background-color:#3e8e41;
+    background-color:#1038ec;
     text-align:center;
     margin: 5px;
-    border: solid;
-    border-style:groove;
-    border-color: black;
     line-height: 1.5;
     padding: 50px;
     display: inline-block;
@@ -39,7 +36,7 @@ div{
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-color: #04AA6D;
+    background-color: #1038ec;
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
@@ -65,4 +62,8 @@ div{
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-  
+  .fund{
+    border: solid;
+    border-style:groove;
+    border-color: black;
+  }
